@@ -1,0 +1,27 @@
+@media(max-width: 1000px){
+    html{
+        font-size: 15px;
+    }
+    .sentences .explain{
+        width: 90%;
+        font-size: 22px;
+        font-weight: 400;
+
+    } 
+}
+
+@media(max-width: 670px){
+    html{
+        font-size: 13px;
+    }
+
+    .sentences .explain{
+        font-size: 18px;
+        line-height: 1.25em;
+        color: royalblue;
+        font-weight: 700;
+    }
+    .container{
+        line-height: 30px;
+    }
+}
