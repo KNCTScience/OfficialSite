@@ -111,6 +111,8 @@ a{
     text-decoration: none;
 }
 
+
+
 *{
   position: relative;
   z-index: 0;
@@ -155,6 +157,7 @@ header{
   background-image: url("img/BackImage.jpg");
   background-size: cover;
   margin: 0 0;
+  margin-bottom: 100px;
   }
 
   .sentences{
@@ -194,10 +197,10 @@ header{
     font-weight: 300;
     display: inline-block;
     border-bottom: seagreen solid 1px;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     letter-spacing: 4px;
     color: yellowgreen;
+    padding-top: 100px;
   }
 
   .container a{
