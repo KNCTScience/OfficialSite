@@ -46,13 +46,9 @@
         height: 25%;
     }
     
-    .btn a{
+    .btn a, #title a{
         padding: 0 0.5rem;
         font-size: 1rem;
         padding-top: 5rem;
     }
-    #title a{
-        padding-top: 2rem;
-    }
-
-}
+  }
