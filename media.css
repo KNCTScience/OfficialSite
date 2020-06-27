@@ -4,8 +4,8 @@
     }
     .sentences .explain{
         width: 90%;
-        font-size: 22px;
         font-weight: 400;
+        font-size: 0.75rem;
 
     } 
 }
@@ -15,13 +15,43 @@
         font-size: 13px;
     }
 
+    .top-wrapper{
+        margin-bottom: 0;
+    }
     .sentences .explain{
-        font-size: 18px;
         line-height: 1.25em;
-        color: royalblue;
-        font-weight: 700;
+        color: white;
+        font-weight: 900;
+        font-size: 1rem;
     }
     .container{
-        line-height: 30px;
+        line-height: 25px;
+        font-size: 1rem;
+        margin-left: 1rem;
+        width: 80%;
     }
+
+    header{
+        flex-wrap: wrap;
+        width: 2.5rem;
+        height: 100%;
+        left: calc(100% - 2.5rem);
+    }
+    
+    .btn{
+        top: 0;
+        left: 0;
+        flex: auto;
+        height: 25%;
+    }
+    
+    .btn a{
+        padding: 0 0.85rem;
+        padding-top: 5rem;
+    }
+    #title a{
+        padding: 0 0.85rem;
+        padding-top: 2rem;
+    }
+
 }
