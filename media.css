@@ -31,7 +31,10 @@
         margin-left: 1rem;
         width: 80%;
     }
-
+    .list{
+        line-height: 32px;   
+    }
+    
     header{
         flex-wrap: wrap;
         width: 2.5rem;
